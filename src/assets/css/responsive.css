@@ -1,0 +1,1090 @@
+@media (min-width: 320px) and (max-width: 1400px) {
+    .header {
+        padding: 17px 20px;
+        padding-bottom: 28px;
+        margin-bottom: -122px;
+    }
+
+    .common-content p {
+        font-size: 21px;
+        margin-bottom: 28px;
+    }
+
+    .hero__arrow {
+        bottom: 520px;
+    }
+
+    .ticket__right {
+        padding: 45px 110px;
+        padding-right: 3px;
+        padding-bottom: 24px;
+    }
+
+    .hero__character {
+        top: 19px;
+        right: -116px;
+    }
+
+    .hero__content {
+        padding-top: 180px;
+        padding-left: 56px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+    .about__video__wrapper {
+        height: 350px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    .offcanvas__menu__icon {
+        max-width: 120px;
+    }
+
+    .offcanvas__links a:first-child img {
+        max-width: 343px;
+    }
+
+    .offcanvas__links {
+        padding-top: 50px;
+        max-width: 850px;
+    }
+
+    .offcanvas__links a {
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+
+
+    .hero__character {
+        top: 3px;
+        right: -101px;
+    }
+
+
+    .video__play {
+        max-width: 123px;
+    }
+
+    .mic {
+        bottom: 130px;
+        max-width: 636px;
+    }
+
+    .footer__slogan {
+        max-width: 515px;
+        margin-bottom: 43px;
+    }
+
+    .footer__logo {
+        max-width: 275px;
+        margin-bottom: 40px;
+    }
+
+    .footer__social a {
+        font-size: 33px;
+        margin: 0 17px;
+    }
+
+    .ticket__left {
+        max-width: 335px;
+        width: 335px;
+        padding: 62px 65px;
+        padding-bottom: 29px;
+    }
+
+    .ticket__right {
+        padding: 49px 85px;
+        padding-right: 2px;
+        padding-bottom: 30px;
+    }
+
+    .single__form__input .form-control {
+        height: 52px;
+        padding: 0 21px;
+        font-size: 18px;
+    }
+
+    .single__form__input .form-select {
+        height: 52px;
+        padding: 0 19px;
+        font-size: 18px;
+        background-size: 17px;
+    }
+
+    .input-slogan {
+        margin-left: 10px;
+        width: 90px;
+    }
+
+    .mic__content {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .talent__wrapper ul li {
+        font-size: 22px;
+    }
+
+
+    .team__item__thumb {
+        max-width: 200px;
+        margin-bottom: 13px;
+    }
+
+    .team__item {
+        margin-bottom: 60px;
+    }
+
+
+    .ticket__area {
+        /* min-height: 1800px; */
+        min-height: 2100px;
+        padding: 60px 0;
+        margin-top: -68px;
+    }
+
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+    .hero__arrow img {
+	max-width: 37px;
+}.footer__area {
+	height: 690px;
+}
+    .ticket__top {
+        display: block;
+    }
+
+    .offcanvas__menu__icon {
+        max-width: 110px;
+    }
+
+    .roadmap__wrap .col-lg-6 {
+        width: 47%;
+    }
+
+    .roadmap__wrap .row {
+        justify-content: space-between;
+    }
+
+    .offcanvas__links {
+        padding-top: 50px;
+        max-width: 550px;
+    }
+
+    .offcanvas__links a:first-child img {
+        max-width: 260px;
+    }
+
+    .offcanvas__links a {
+        margin-bottom: 25px;
+    }
+
+    .menu-close {
+        top: 24px;
+        right: 28px;
+        width: 29px;
+        height: 29px;
+    }
+
+    .offcanvas__links a:first-child img {
+        max-width: 198px;
+    }
+
+    .offcanvas__menu__icon {
+        max-width: 95px;
+    }
+
+    .menu-close {
+        top: 25px;
+        right: 23px;
+        width: 24px;
+        height: 24px;
+    }
+
+
+    .story__content.common-content h5 {
+        font-size: 28px;
+    }
+
+    .hero__character {
+        top: -55px;
+        right: -83px;
+    }
+
+    .hero__area {
+        padding-top: 141px;
+    }
+
+    .hero__content {
+        padding-top: 140px;
+        padding-left: 20px;
+    }
+
+    .hero__arrow {
+        bottom: 350px;
+    }
+
+     
+
+    .header__logo {
+        max-width: 270px;
+    }
+
+    .header {
+        padding: 14px 20px;
+        padding-bottom: 25px;
+        margin-bottom: -89px;
+    }
+
+    .common-content p {
+        font-size: 19px;
+        margin-bottom: 25px;
+    }
+
+    .story__content {
+        padding-bottom: 40px;
+    }
+
+
+    .story__title img {
+        max-width: 395px;
+    }
+
+    .about__title img {
+        max-width: 375px;
+    }
+
+    .about__area {
+        padding-bottom: 230px;
+        padding-top: 108px;
+    }
+
+    .about__video__wrapper {
+        height: 325px;
+    }
+
+    .video__play {
+        max-width: 110px;
+    }
+
+    .roadmap__title {
+        max-width: 435px;
+        top: -29px;
+    }
+
+    .roadmap img {
+        max-width: 500px;
+        margin: 0 auto;
+        display: block;
+    }
+
+
+    .roadmap {
+        margin-bottom: -25px;
+    }
+
+    .talent__text__title {
+        max-width: 370px;
+    }
+
+    .talent__wrapper ul li {
+        font-size: 20px;
+    }
+
+    .talent__wrapper ul {
+        padding-left: 45px;
+    }
+
+
+    .rock__title {
+        padding-bottom: 55px;
+        max-width: 385px;
+        margin: 0 auto;
+    }
+
+    .community__title img {
+        max-width: 406px;
+    }
+
+    .community__wrapper {
+        background-size: 102% 100%;
+        padding: 170px 0;
+    }
+
+    .white__shape {
+        top: 38px;
+        max-height: 200px;
+        height: 168px;
+    }
+
+    .team__title__text img {
+        max-width: 420px;
+    }
+
+    .team__mail__form input {
+        height: 70px;
+        font-size: 23px;
+        padding: 0 18px;
+        padding-left: 78px;
+        padding-right: 75px;
+    }
+
+    .team__mail__form {
+        max-width: 427px;
+        left: -17px;
+    }
+
+    .team__mail__form button {
+        max-width: 37px;
+    }
+
+    .ticket__mobile {
+        display: block;
+    }
+
+    .ticket__wrapper.d-flex {
+        display: none !important;
+    }
+
+    .ticket__main__wrapper::after {
+        display: none;
+    }
+
+    .ticket__area {
+        min-height: 1800px;
+        padding-top: 100px;
+    }
+
+    .ticket__right {
+        background-image: url(../img/t-bg.png);
+        background-size: 100% auto;
+        background-position: top center;
+        padding: 72px 100px;
+        padding-bottom: 35px;
+    }
+
+    .input-slogan {
+        margin-left: 12px;
+        width: 97px;
+    }
+
+    .ticket__right::after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 300px);
+        background: #e4decc;
+        content: '';
+        z-index: -1;
+    }
+
+    .single__form__input textarea.form-control {
+        padding-top: 13px;
+        padding-bottom: 11px;
+        height: 275px;
+    }
+
+    .choose__file {
+        max-width: 170px;
+        position: relative;
+    }
+
+    .choose__file input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        z-index: 1;
+        opacity: 0;
+        font-size: 0;
+    }
+
+    .ticket__submit button {
+        background: transparent;
+        border: 0;
+        outline: none;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
+    .ticket__area {
+        min-height: 1800px;
+        padding-top: 99px;
+        margin-top: -108px;
+        background-image: url(../img/footerbg-2.png);
+        background-size: 100% 100%;
+    }
+
+    .ticket__main__wrapper {
+        margin-bottom: 135px;
+    }
+
+    .team__item__thumb {
+        max-width: 230px;
+    }
+
+    .team__wrapper.pb-2.will-hide {
+        display: none;
+    }
+
+    .team__slider.owl-carousel {
+        display: block !important;
+        position: relative;
+        z-index: 4;
+    }
+
+    .roadmap__left__txt {
+        padding-top: 56px;
+        text-align: left;
+        padding-right: 60px;
+    }
+
+    .roadmap__right__txt {
+        padding-top: 15px;
+        text-align: right;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .roadmap__guiter__position {
+        max-width: 175px;
+        margin-left: -17px;
+    }
+
+
+    .roadmap__wrap {
+        padding-top: 122px;
+        padding-bottom: 80px;
+    }
+
+
+    .roadmap__right__txt.dif {
+        position: relative;
+        top: 42px;
+    }
+
+
+
+
+
+    .offcanvas__links a:first-child img {
+        max-width: 231px;
+    }
+
+    .offcanvas__links {
+        padding-top: 50px;
+        max-width: 475px;
+    }
+
+    .offcanvas__links a {
+        margin-bottom: 22px;
+    }
+
+    .offcanvas__menu__icon {
+        max-width: 100px;
+    }
+
+    .menu-close {
+        top: 24px;
+        right: 23px;
+        width: 27px;
+        height: 27px;
+    }
+
+
+
+
+    .hero__content {
+        padding-top: 0;
+        margin-top: -435px;
+        z-index: 3;
+        position: relative;
+    }
+
+
+    .hero__area {
+        background-image: url(../img/HERO\ BANNER-2.png);
+        background-position: right center;
+    }
+
+    .hero__character {
+        top: -23px;
+        right: -5px;
+    }
+
+    .header {
+        padding: 14px 20px;
+        padding-bottom: 24px;
+        margin-bottom: -50px;
+    }
+
+    .mobile {
+        display: block !important;
+    }
+
+    .desk {
+        display: none !important;
+    }
+
+    .owl-stage {
+        /*         padding-left: 18px !important; */
+    }
+
+    .team__item__thumb {
+        max-width: 200px;
+    }
+
+    .story__area {
+        margin-top: -50px;
+    }
+
+    .story__title {
+        margin-bottom: 24px;
+        top: 0px;
+    }
+
+    .hero__arrow {
+        bottom: 88px;
+    }
+
+    .story__content.common-content h5 {
+        font-size: 25px;
+    }
+
+    .story__content {
+        padding-bottom: 40px;
+        background-size: 160% 100%;
+    }
+
+
+    .step__thumb {
+        position: relative;
+        z-index: 1;
+        top: -95px;
+    }
+
+    .step__thumb::after {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 400px);
+        content: '';
+        background: #000;
+        z-index: -1;
+
+    }
+
+    .step__thumb::before {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        content: '';
+        background-color: #ef254d;
+        z-index: -1;
+
+    }
+
+    .step__area {
+        margin-bottom: -355px;
+    }
+
+    .step__area .container {
+        /* top: 10%; */
+        top: 32%;
+    }
+
+    .mic {
+        bottom: 524px;
+        max-width: 430px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+
+    .about__area {
+        padding-bottom: 8px;
+        padding-top: 100px;
+    }
+
+    .about__video__wrapper {
+        height: 325px;
+        margin-top: 250px;
+    }
+
+    .mic-shape {
+        background-position: top;
+        background-size: auto 100%;
+        height: 960px;
+    }
+
+    .ticket__right {
+        padding: 72px 55px;
+        padding-bottom: 35px;
+    }
+
+    .ticket__submit {
+        padding: 30px;
+        padding-bottom: 49px;
+    }
+
+    .footer__slogan {
+        max-width: 420px;
+        margin-bottom: 41px;
+    }
+
+    .footer__logo {
+        max-width: 245px;
+        margin-bottom: 30px;
+    }
+
+    .footer__social a {
+        font-size: 22px;
+        margin: 0 10px;
+    }
+.footer__social a img {
+	height: 24px;
+	flex: 0 0 auto;
+}
+    .black__shape {
+        top: -55px;
+        max-height: 150px;
+        height: 146px;
+    }
+
+    .community__wrapper {
+        background-size: 110% 100%;
+        padding: 160px 0;
+    }
+
+    .ticket__area {
+        min-height: 1800px;
+        padding-top: 100px;
+        margin-top: -79px;
+    }
+
+
+    .roadmap__left__txt {
+        padding-top: 44px;
+        text-align: left;
+    }
+
+    .roadmap__left__txt img {
+        width: 200px;
+    }
+
+    .roadmap__right__txt {
+        padding-top: 20px;
+        text-align: right;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        width: 100%;
+        padding-left: 25px;
+    }
+
+    .roadmap__right__txt img {
+        width: 200px;
+    }
+
+    /* New Css  */
+
+    .breadcrumb__one .story__title {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .third__page__img img {
+        height: 300px;
+    }
+    .number__blk p {
+        font-size: 18px;
+    }.number__bottom__part h4 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .third__number__input {
+        flex-direction: column;
+    }
+    .third__number__input h4 {
+        margin-right: 0;
+        margin-bottom: 20px;
+        font-size: 19px;
+    }
+
+    .number__bottom__part a img {
+        width: 89px;
+    }
+
+
+    .footer_third__area {
+        padding: 50px 0;
+    }
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    .breadcrumb__one .story__title {
+        margin-top: 118px;
+        margin-bottom: 60px;
+    }
+    .second__ticket__title h4 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    .footer__area {
+        height: 526px;
+    }
+    .breadcrumb__arrow {
+        bottom: -42px !important;
+    }
+
+
+
+    .ticket__right__main__blk .single__form__input .massage_ico img {
+        height: auto;
+        width: 33px;
+    }
+
+
+    .form___content h4 {
+        font-size: 18px; 
+    }
+    .form-check label {
+        font-size: 18px;
+    }.second__ticket__inner__blk .bg-transparent {
+        max-width: 190px;
+        margin-top: 15px;
+    }.footer__area .footer__social {
+        padding-bottom: 60px;
+    }
+
+    .roadmap img {
+        max-width: 100%;
+    }
+
+    .roadmap__guiter__position {
+        max-width: 116px;
+        margin-left: -12px;
+    }
+
+    .roadmap__wrap {
+        padding-top: 100px;
+        padding-bottom: 80px;
+        max-width: 377px;
+        margin: 0 auto;
+    }
+
+    .offcanvas__links {
+        padding-top: 50px;
+        max-width: 335px;
+    }
+
+    .roadmap__wrap .col-lg-6 {
+        width: 50%;
+    }
+
+    .step__area {
+        margin-bottom: -400px;
+    }
+
+    .roadmap__right__txt.dif {
+        top: 30px;
+    }
+
+    .hero__area {
+        background-image: url(../img/HERO\ BANNER-2.png);
+        background-position: top;
+        background-size: 105% 96%;
+    }
+
+    .hero__character {
+        top: 20px;
+        right: -5px;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .header {
+        padding: 15px 8px;
+        padding-bottom: 27px;
+        margin-bottom: -154px;
+    }
+
+    .header__logo {
+        max-width: 205px;
+    }
+
+    .menu-open {
+        font-size: 26px;
+        top: -7px;
+        margin-left: 24px;
+        margin-right: 0px;
+        max-width: 38px;
+    }
+
+    .offcanvas-area .main-menu ul li a {
+        font-size: 17px;
+        padding: 13px 20px;
+    }
+
+    .offcanvas-btn a {
+        font-size: 15px;
+        width: 175px;
+        height: 56px;
+    }
+
+
+    .hero__content {
+        padding-top: 0;
+        margin-top: -395px;
+    }
+
+
+
+    .container {
+        padding: 0 22px;
+    }
+
+
+    .story__title img {
+        max-width: 100%;
+    }
+
+
+    .story__content {
+        padding-bottom: 40px;
+        background-size: 109% 100%;
+        margin: 0 -15px;
+        padding: 0 15px;
+    }
+
+    .common-content p {
+        font-size: 17px;
+        margin-bottom: 22px;
+        letter-spacing: .2px;
+    }
+
+    .about__title img {
+        max-width: 84%;
+    }
+
+    .about__area {
+        padding-bottom: 0px;
+        padding-top: 180px;
+    }
+
+    .mic {
+        bottom: 515px;
+        max-width: 408px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+
+
+    .roadmap__area {
+        position: relative;
+        z-index: 1;
+    }
+
+    .roadmap__area .container {
+        padding: 0 10px;
+    }
+
+    .talent__wrapper ul li {
+        font-size: 18px;
+    }
+
+    .rock__content {
+        padding-bottom: 55px;
+    }
+
+    .community__title img {
+        max-width: 100%;
+        padding-right: 15px;
+    }
+
+
+    .ticket__right {
+        padding: 60px 30px;
+        padding-bottom: 20px;
+    }
+
+    .ticket__submit button {
+        max-width: 212px;
+    }
+
+    .ticket__submit {
+        padding: 26px;
+        padding-bottom: 40px;
+    }
+
+    .ticket__main__wrapper {
+        margin-bottom: 80px;
+    }
+
+    .single__form__input textarea.form-control {
+        height: 230px;
+    }
+
+
+    .check__options .form-check label {
+        font-size: 20px;
+    }
+
+    .single__form__input .input-icon {
+        width: 40px;
+        margin-right: 7px;
+    }
+
+    .single__input>label {
+        font-size: 22px;
+    }
+
+    .team__title__text img {
+        max-width: 100%;
+    }
+
+    .ticket__area {
+        min-height: 1800px;
+        padding-top: 70px;
+        margin-top: -79px;
+    }
+
+    .team__mail__form {
+        max-width: 100%;
+        left: -16px;
+    }
+
+
+
+    .team__mail__form input {
+        height: 64px;
+        font-size: 22px;
+        padding: 0 15px;
+        padding-left: 62px;
+        padding-right: 65px;
+    }
+
+    .team__mail__form button {
+        max-width: 33px;
+        right: 22px;
+    }
+
+    .team__item__content h3 {
+        font-size: 28px;
+        margin-bottom: 8px;
+        padding-top: 6px;
+    }
+
+    .team__item__content p {
+        font-size: 19px;
+    }
+
+    .team__item__social a {
+        font-size: 25px;
+        margin: 0 13px;
+    }
+
+    .step__thumb {
+        top: -125px;
+    }
+
+    .talent__dot {
+        max-width: 94px;
+        margin-top: 36px;
+    }
+
+    .team__item {
+        margin-bottom: 45px;
+    }
+
+
+    .roadmap__left__txt {
+        padding-top: 39px;
+        text-align: left;
+    }
+
+    .roadmap__left__txt img {
+        width: 150px;
+    }
+
+    .roadmap__right__txt {
+        padding-top: 28px;
+        text-align: right;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        width: 100%;
+        padding-left: 19px;
+    }
+
+    .roadmap__right__txt img {
+        width: auto;
+    }
+
+    .breadcrumb__one {
+        background: url(../img/phone_bg_2.png);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding-top: 145px;
+        padding-bottom: 32px;
+        background-color: #000;
+    }
+
+
+
+}
+
+@media screen and (max-width: 450px) {
+    .about__video__wrapper {
+        height: 285px;
+        margin-top: 235px;
+    }
+
+
+
+
+
+    .mic {
+        bottom: 540px;
+        max-width: 340px;
+    }
+
+
+
+    .video__play {
+        max-width: 91px;
+    }
+
+
+}
+
+.margin-top-380 {
+    margin-top: 380px
+}

@@ -1,0 +1,1441 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap');
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    color: #1B1B21;
+}
+
+body {
+    color: #1E1F20;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+
+/*---------------------- Header area start ----------------------*/
+
+.menu-close {
+    font-size: 18px;
+    position: absolute;
+    top: 28px;
+    right: 28px;
+    cursor: pointer;
+    transition: .4s;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offcanvas__links a:first-child img {
+    max-width: 395px;
+    margin: 0 auto;
+}
+
+.offcanvas-area {
+    position: fixed;
+    left: -100%;
+    height: 100%;
+    width: 100%;
+    background: #000000b0;
+    padding: 50px 40px;
+    padding-top: 90px;
+    -webkit-transition: .4s;
+    transition: .4s;
+    visibility: hidden;
+    top: 0;
+    z-index: 8;
+    text-align: center;
+}
+
+.offcanvas-area.active {
+    left: 0;
+    visibility: visible;
+}
+
+.offcanvas-area .main-menu ul li a {
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    transition: .3s;
+    padding: 16px 22px;
+    border-bottom: 1px solid #fff;
+    text-decoration: none;
+}
+
+.offcanvas-area .main-menu ul li:first-child a {
+    border-top: 1px solid #fff;
+}
+
+.offcanvas-area .main-menu ul li a:hover,
+.offcanvas-area .main-menu ul li a[aria-expanded="true"] {
+    color: #D5D5D5;
+}
+
+.offcanvas-menu .main-menu ul {
+    display: block;
+    padding-top: 94px;
+    padding-left: 0;
+    margin-bottom: 65px;
+    list-style: none;
+}
+
+.offcanvas-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: .4s;
+    transition: .4s;
+    z-index: 7;
+}
+
+.offcanvas-overlay.active {
+    opacity: .4;
+    visibility: visible;
+}
+
+.menu-open {
+    font-size: 27px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    top: -16px;
+    margin-left: 20px;
+    margin-right: 2px;
+}
+
+.offcanvas-menu .common-btn {
+    font-size: 17px;
+    padding: 9px 30px;
+    border-radius: 12px;
+}
+
+.subb-menu {
+    padding-left: 10px;
+}
+
+.offcanvas-area .main-menu .subb-menu a {
+    font-size: 16px;
+    margin: 0px;
+    padding-left: 10px;
+    margin-left: 26px;
+    margin-bottom: 10px;
+}
+
+.offcanvas-area .main-menu .subb-menu a:last-child {
+    margin-bottom: 20px;
+}
+
+.header {
+    padding: 16px 20px;
+    position: relative;
+    z-index: 5;
+    background: url(../img/BKG\ HEADER.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 24px;
+    margin-bottom: -141px;
+}
+
+.offcanvas-btn a {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    width: 200px;
+    height: 60px;
+    text-decoration: none;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin: 0 auto
+}
+
+.offcanvas-btn a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.offcanvas__links {
+    padding-top: 60px;
+    max-width: 930px;
+    margin: 0 auto;
+}
+
+.offcanvas__links a {
+    display: block;
+    margin-bottom: 35px;
+}
+
+.offcanvas__menu__icon {
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+/*---------------------- Header area end ----------------------*/
+
+
+
+/*---------------------- Hero area start ----------------------*/
+.hero__area {
+    background: url(../img/BACK\ HERO\ BANNER.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 145px;
+    padding-bottom: 32px;
+}
+
+.hero__character {
+    position: relative;
+    top: 50px;
+    right: -126px;
+    z-index: 2;
+}
+
+.hero__arrow {
+    position: absolute;
+    bottom: 650px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 4;
+    text-align: center;
+    display: inline-block;
+}
+
+.hero__arrow img {
+    transition: .3s;
+    animation: .9s infinite scroll;
+    position: relative
+}
+
+@keyframes scroll {
+    0% {
+        top: 0px;
+    }
+
+    30% {
+        top: 15px;
+    }
+
+    60% {
+        top: 0px;
+    }
+}
+
+@-webkit-keyframes scroll {
+    0% {
+        top: 0px;
+    }
+
+    30% {
+        top: 15px;
+    }
+
+    60% {
+        top: 0px;
+    }
+}
+
+.dot-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.header .dot-overlay {
+    height: 100%
+}
+
+.dot-overlay img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero__content {
+    padding-top: 225px;
+    padding-left: 57px;
+}
+
+.story__title {
+    position: relative;
+    margin-bottom: 15px;
+    top: -80px;
+    z-index: 2;
+}
+
+.story__area {
+    margin-top: -178px;
+}
+
+.story__content.common-content h5 {
+    font-size: 34px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+
+.story__content.common-content h5 span {
+    color: #ef254d;
+}
+
+.story__content {
+    background: url(../img/story-shape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding-bottom: 92px;
+    position: relative;
+    z-index: 2;
+}
+
+/*---------------------- Hero area end ----------------------*/
+
+
+
+/*---------------------- Step area start ----------------------*/
+.step__area {
+    background: #ef254d;
+    margin-bottom: -152px;
+    /*! z-index: 4; */
+}
+
+.step__area .container {
+    position: absolute !important;
+    top: 40%;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+/*---------------------- Step area end ----------------------*/
+
+
+
+/*---------------------- About area start ----------------------*/
+.about__area {
+    background: #ef254d;
+    padding-bottom: 300px;
+    /*! position: relative; */
+    padding-top: 80px;
+}
+
+.about__content__wrapper {
+    position: relative;
+    z-index: 2;
+}
+
+.about__video__wrapper {
+    height: 430px;
+    position: relative;
+    z-index: 2;
+}
+
+.about__video__wrapper>img {
+    height: 100%;
+    width: 100%;
+}
+
+.video__play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 160px;
+    z-index: 1;
+}
+
+/*---------------------- About area end ----------------------*/
+
+
+/*---------------------- Step area start ----------------------*/
+/* Style the form */
+/* #regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+} */
+
+/* Style the input fields */
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+    background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+    display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+    opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+    background-color: #04AA6D;
+}
+
+#all-steps {
+    display: none;
+}
+
+.text-red {
+    color: #ef254d;
+}
+
+.form-greetings {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-greetings p {
+    font-size: 24px;
+    text-align: center;
+    max-width: 635px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.tel-image {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.form-greetings .single__input label {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: inherit;
+}
+
+.ticket__top {
+    display: none;
+}
+
+/*---------------------- Step area end ----------------------*/
+
+
+
+/*---------------------- Mic area start ----------------------*/
+.mic__area {
+    padding: 50px 0;
+    position: relative;
+    background: #ef254d;
+    z-index: 4;
+}
+
+.mic-shape {
+    background: url(../img/mic-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+    height: 760px;
+    width: 100%;
+}
+
+.mic {
+    position: absolute;
+    bottom: 65px;
+    max-width: 860px;
+    z-index: -1;
+}
+
+/*---------------------- Mic area end ----------------------*/
+
+
+
+/*---------------------- Roadmap area start ----------------------*/
+.roadmap__area {
+    background: url(../img/roadmap-bg.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-color: #e5dfcd;
+    padding-top: 20px;
+}
+
+.main .roadmap__area .container {
+    z-index: 1;
+}
+
+.roadmap__title {
+    max-width: 534px;
+    margin: 0 auto;
+    position: relative;
+    top: -30px;
+}
+
+.roadmap__wrap {
+    position: relative;
+    z-index: 2;
+    padding-top: 220px;
+    padding-bottom: 90px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.roadmap__guiter__position {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.roadmap__left__txt {
+    padding-top: 20px;
+}
+
+.roadmap__right__txt {
+    padding-top: 135px;
+    text-align: left;
+    padding-left: 81px;
+}
+
+
+/*---------------------- Roadmap area end ----------------------*/
+
+
+
+/*---------------------- Talent area start ----------------------*/
+.talent__area {
+    padding: 30px 0;
+    background: #744093;
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    padding-bottom: 100px;
+}
+
+.blue__shape {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    max-height: 187px;
+    height: 187px;
+}
+
+.blue__shape img {
+    height: 100%;
+    width: 100%;
+}
+
+.white__bg-2 {
+    position: absolute;
+    bottom: -88px;
+    z-index: -1;
+    max-height: 166px;
+    width: 100%;
+    height: 166px;
+}
+
+.white__bg-2 img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.talent__wrapper {
+    max-width: 735px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.talent__text__title {
+    padding-bottom: 18px;
+}
+
+.talent__wrapper ul {
+    padding-left: 60px;
+}
+
+.talent__wrapper ul li {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    line-height: 1.3;
+}
+
+.talent__dot {
+    max-width: 119px;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+/*---------------------- Talent area end ----------------------*/
+
+
+
+/*---------------------- Rock area start ----------------------*/
+.common-content p {
+    font-size: 24px;
+    margin-bottom: 30px;
+
+}
+
+.common-content p b {
+    color: #ef254d;
+}
+
+.rock__title {
+    padding-bottom: 55px;
+}
+
+.rock__content {
+    padding-bottom: 120px;
+    position: relative;
+}
+
+.rock__icon {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 350px;
+    top: -33px;
+    z-index: -1;
+}
+
+.rock__area {
+    position: relative;
+    padding-top: 22px;
+}
+
+/*---------------------- Rock area end ----------------------*/
+
+
+
+/*---------------------- Community area start ----------------------*/
+.community__wrapper {
+    background: url(../img/wallet-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding: 230px 0;
+}
+
+.black__shape {
+    position: absolute;
+    top: -65px;
+    z-index: 0;
+    max-height: 190px;
+    left: 0;
+    height: 190px;
+}
+
+.black__shape img {
+    height: 100%;
+    width: 100%;
+}
+
+.white__shape {
+    position: absolute;
+    top: 38px;
+    z-index: 3;
+    max-height: 200px;
+    left: 0;
+    width: 100%;
+    height: 200px;
+}
+
+.white__shape img {
+    height: 100%;
+    width: 100%;
+}
+
+.community__area {
+    position: relative
+}
+
+.community__title {
+    position: relative;
+    z-index: 1;
+}
+
+/*---------------------- Community area end ----------------------*/
+
+
+
+/*---------------------- Team area start ----------------------*/
+.team__area {
+    background: #000;
+    padding-bottom: 130px;
+    color: #fff;
+    padding-top: 60px;
+    position: relative;
+}
+
+.team__wrapper {
+    padding-top: 40px;
+}
+
+.team__item__thumb {
+    max-width: 259px;
+    margin: 0 auto;
+    margin-bottom: 14px;
+}
+
+.team__item__content h3 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 8px;
+    padding-top: 7px;
+}
+
+.team__item__content p {
+    font-size: 21px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.team__item__social a {
+    font-size: 28px;
+    color: #7d7d7d;
+    transition: .3s;
+    text-decoration: none;
+    margin: 0 16px;
+    line-height: 1.2;
+}
+
+.team__item__social a:hover {
+    color: #fff;
+}
+
+.team__item {
+    margin-bottom: 80px;
+}
+
+.team__mail__form {
+    max-width: 545px;
+    margin: 0 auto;
+    left: -27px;
+    position: relative;
+}
+
+.team__mail__form input {
+    width: 100%;
+    height: 80px;
+    font-size: 24px;
+    font-weight: 400;
+    border: 0;
+    outline: none;
+    padding: 0 20px;
+    padding-left: 95px;
+    padding-right: 85px;
+    background: url(../img/mail-input-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.team__mail__form button {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    right: 25px;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    outline: none;
+    max-width: 41px;
+}
+
+::-webkit-input-placeholder {
+    opacity: 1;
+    color: #000;
+}
+
+::-moz-placeholder {
+    opacity: 1;
+    color: #000;
+}
+
+:-ms-input-placeholder {
+    opacity: 1;
+    color: #000;
+}
+
+::-ms-input-placeholder {
+    opacity: 1;
+    color: #000;
+}
+
+::placeholder {
+    opacity: 1;
+    color: #000;
+}
+
+/*---------------------- Team area end ----------------------*/
+
+
+
+
+/*---------------------- Tocket area start ----------------------*/
+.ticket__area {
+    /* min-height: 2000px; */
+    min-height: 2300px;
+    background: url(../img/ticket-bg.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+    position: relative;
+    margin-top: -70px;
+    z-index: 4;
+}
+
+.ticket__left {
+    flex: 0 0 auto;
+    max-width: 400px;
+    width: 400px;
+    background: url(../img/ticket-bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding: 60px 52px;
+    padding-bottom: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.border-dots {
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+
+.ticket__slogan {
+    padding-bottom: 10px;
+}
+
+.ticket__right {
+    position: relative;
+    padding: 95px 160px;
+    width: 100%;
+    background: url(../img/ticket-bg-2.png);
+    background-size: 100% 100%;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-right: 37px;
+    padding-bottom: 45px;
+}
+
+.ticket__mobile {
+    display: none;
+}
+
+.dark-dots {
+    margin-bottom: 10px;
+}
+
+.dark-dots {
+    margin-bottom: 15px;
+    margin-top: 9px;
+}
+
+.single__form__input .form-control {
+    width: 100%;
+    height: 60px;
+    border: 0;
+    box-shadow: unset !important;
+    border-radius: 0;
+    padding: 0 25px;
+    font-size: 20px;
+    color: #000;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.single__form__input .form-select {
+    width: 100%;
+    height: 60px;
+    border: 0;
+    box-shadow: unset !important;
+    border-radius: 0;
+    padding: 0 25px;
+    font-size: 20px;
+    color: #000;
+    background-image: url("../img/arrow-down.png");
+    background-size: 21px;
+}
+
+.single__input>label {
+    font-size: 24px;
+    color: #0d0808;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.single__input>label span {
+    color: #ef254d;
+}
+
+.check__options .form-check label {
+    font-size: 19px;
+    color: #0d0808;
+    line-height: 1.2;
+}
+
+.check__options .form-check.w-100 input {
+    margin-right: 12px;
+}
+
+.single__input h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    margin-top: -5px;
+}
+
+.owl-stage {
+    /*     padding-left: 35px !important; */
+}
+
+.team__slider {
+    padding-top: 58px;
+    margin-bottom: 32px;
+}
+
+.mobile {
+    display: none !important;
+}
+
+.main .container {
+    position: relative;
+    z-index: 5;
+}
+
+.main .register-now {
+    position: absolute;
+    max-width: unset !important;
+    margin-top: 140px;
+}
+
+.main .register-now p {
+    margin-top: 45px !important;
+    /* color: #fff !important; */
+}
+
+.main .register-now p b {
+    color: #fff !important;
+}
+
+.team__slider.owl-carousel {
+    display: none !important;
+}
+
+.dot-overlay.full {
+    background: url(../img/overlay.png);
+    /*! position: fixed; */
+    z-index: 4;
+    height: 100vh;
+    width: 100%;
+    background-size: auto;
+}
+
+.owl-nav,
+.owl-dots {
+    display: none !important;
+}
+
+.ticket__submit {
+    background: url(../img/submit-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100%;
+    padding: 32px;
+    text-align: center;
+    padding-bottom: 61px;
+}
+
+.dot-border {
+    border-bottom: 11px dotted #fff;
+    margin: 0 -6px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.check__options .form-check {
+    padding: 0 10px;
+    margin: 0 -10px;
+    width: auto;
+    padding-right: 0;
+}
+
+.check__options .form-check .form-check-input {
+    width: 22px;
+    height: 22px;
+    border-color: #0d0808;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    flex: 0 0 auto;
+}
+
+::-webkit-input-placeholder {
+    opacity: 1;
+    color: #000 !important;
+}
+
+::-moz-placeholder {
+    opacity: 1;
+    color: #000 !important;
+}
+
+:-ms-input-placeholder {
+    opacity: 1;
+    color: #000 !important;
+}
+
+::-ms-input-placeholder {
+    opacity: 1;
+    color: #000 !important;
+}
+
+::placeholder {
+    opacity: 1;
+    color: #000 !important;
+}
+
+.single__form__input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.single__form__input .input-icon {
+    flex: 0 0 auto;
+    width: 48px;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.input-slogan {
+    flex: 0 0 auto;
+    margin-left: 12px;
+    width: 119px;
+}
+
+.ticket__main__wrapper {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 190px;
+}
+
+.ticket__main__wrapper::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 35%;
+    background: #e3ddca;
+    content: '';
+    z-index: -1;
+    height: 100%;
+}
+
+/*---------------------- Footer area start ----------------------*/
+.footer__logo {
+    max-width: 317px;
+    margin: 0 auto;
+    margin-bottom: 42px;
+}
+
+.footer__social a {
+    font-size: 38px;
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+    margin: 0 20px;
+}
+
+.footer__social a img {
+    height: 38px;
+}
+
+.footer__social a:hover {
+    color: #ee254d;
+}
+
+.footer__slogan {
+    max-width: 622px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+/*---------------------- Footer area end ----------------------*/
+/*---------------------- Ticket area end ----------------------*/
+
+
+/*---------------------- Breadcrumb area start ----------------------*/
+
+
+.story__single__content p {
+    font-weight: 700;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.story__single__content span {
+    color: #ee254d;
+}
+
+.breadcrumb__arrow {
+    bottom: -74px !important;
+}
+
+
+
+.story__sound__content .story__title {
+    top: 0;
+    margin-top: 200px;
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+/* ============ TICKET AREA START ------------------- */
+
+.main__second__tiket__blk {
+    position: relative;
+    background: #000;
+    z-index: 1;
+    padding-top: 46px;
+    padding-bottom: 60px;
+}
+
+.ticket__shyape {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    bottom: -25px;
+}
+
+.ticket__shyape img {
+    height: 100%;
+    width: auto;
+}
+
+.main__second__tiket__blk .container {
+    max-width: 830px;
+}
+
+.second__ticket__inner__blk .bg-transparent {
+    max-width: 260px;
+    margin-top: 22px;
+}
+
+.second__ticket__title h4 {
+    font-size: 34px;
+    text-align: center;
+    font-weight: 700;
+    color: #EE254D;
+    margin-bottom: 30px;
+}
+
+/* ============ TICKET AREA END ------------------- */
+
+.footer__area {
+    height: 1200px;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    background-color: #000;
+}
+
+.footer__area .footer__social {
+    padding-bottom: 100px;
+}
+
+.footer__area .footer__logo {
+    margin-bottom: 20px;
+}
+
+.age__content p {
+    color: #ee254d;
+    font-size: 20px;
+}
+
+
+.form-check {
+    padding-left: 0;
+    margin-bottom: 15px;
+}
+
+.form-check label {
+    font-size: 20px;
+    color: #fff;
+}
+
+.form-check label a {
+    color: #fff;
+}
+
+.form-check input {
+    margin-top: 7px;
+    margin-right: 5px;
+    height: 18px;
+    width: 18px;
+    background-size: 0;
+    border-radius: 0 !important;
+    border-color: #fff !important;
+}
+
+.form-check-input:checked {
+    filter: invert(24%) sepia(60%) saturate(3460%) hue-rotate(332deg) brightness(95%) contrast(97%);
+}
+
+.form-check-input:checked {
+    background-color: #0d0808;
+    border-color: #0d0808;
+    filter: invert(24%) sepia(60%) saturate(3460%) hue-rotate(332deg) brightness(95%) contrast(97%);
+}
+
+.form-check-input:focus {
+    border-color: #EE2455 !important;
+    box-shadow: unset;
+}
+
+.form___content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.form___content h4 span {
+    font-weight: 400;
+}
+
+.ticket__right__main__blk .single__form__input .input-icon img {
+    height: 35px;
+}
+
+.ticket__right__main__blk .single__form__input .input-icon i {
+    font-size: 35px;
+    color: #fff;
+}
+
+.ticket__right__main__blk .single__form__input .massage_ico img {
+    height: auto;
+    width: 38px;
+}
+
+.ticket__right__main__blk .single__form__input .tis_ico img {
+    height: auto;
+    width: 29px;
+}
+
+.third__number__input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.third__number__input h4 {
+    margin: 0;
+    color: #ee254d;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.third__number__input form input::placeholder {
+    background-color: transparent !important;
+    color: #fff !important;
+    opacity: 1
+}
+
+.third__number__input form input {
+    background: transparent;
+    border: 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    padding: 3px 10px;
+    text-align: center;
+    width: 207px;
+}
+
+.third__number__input form {
+    position: relative;
+}
+
+.third__number__input form img {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.number__blk p {
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.number__area {
+    background-color: #000;
+}
+
+.breadcrumb__two {
+    padding-bottom: 30px !important;
+}
+
+.breadcrumb__one {
+    background: url(../img/sub_1.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 145px;
+    padding-bottom: 32px;
+    background-color: #000;
+}
+
+.number__bottom__part {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.number__bottom__part h4 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer_third__area {
+    background: #000;
+    padding: 100px 0;
+}
+
+.breadcrumb__one {
+    padding-bottom: 100px;
+}
+
+.form-check-input:checked[type="checkbox"] {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+    background-size: 15px 15px;
+}
+
+
+
+/*---------------------- Breadcrumb area end ----------------------*/
+
+.tiktok-icon {
+    height: 34px !important;
+    margin-top: -7px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .tiktok-icon {
+        height: 21px !important;
+        margin-top: -5px;
+    }
+}

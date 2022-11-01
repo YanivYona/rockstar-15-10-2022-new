@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Kokoschka';
+    src: url('Kokoschka.eot');
+    src: url('Kokoschka.eot?#iefix') format('embedded-opentype'),
+        url('Kokoschka.woff2') format('woff2'),
+        url('Kokoschka.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jawbreaker BRK';
+    src: url('JawbreakerBRK.eot');
+    src: url('JawbreakerBRK.eot?#iefix') format('embedded-opentype'),
+        url('JawbreakerBRK.woff2') format('woff2'),
+        url('JawbreakerBRK.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
